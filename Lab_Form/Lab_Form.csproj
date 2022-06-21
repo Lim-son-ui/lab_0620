@@ -77,6 +77,18 @@
     <Compile Include="Frm_M15.Designer.cs">
       <DependentUpon>Frm_M15.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_M16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M16.Designer.cs">
+      <DependentUpon>Frm_M16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_M18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_M18.Designer.cs">
+      <DependentUpon>Frm_M18.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyFirstClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -95,6 +107,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_M15.resx">
       <DependentUpon>Frm_M15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M16.resx">
+      <DependentUpon>Frm_M16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_M18.resx">
+      <DependentUpon>Frm_M18.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

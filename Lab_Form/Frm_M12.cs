@@ -49,11 +49,11 @@ namespace Lab_Form
                 x = 101;
                 a = x;
             }
-
+            
             int i = a;
             MessageBox.Show(i.ToString());
         }
-
+        
         UseStatic us = new UseStatic();
         private void btn_instance_Click(object sender, EventArgs e)
         {

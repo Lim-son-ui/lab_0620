@@ -26,4 +26,11 @@ namespace Lab_Form
         public int InstanceCount;
         public static int StaticCount;
     }
+
+    public enum UserRole:byte
+    {
+        Admin,
+        User = 2,
+        User2
+    }
 }

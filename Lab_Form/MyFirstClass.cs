@@ -35,6 +35,6 @@ namespace Lab_Form
             Method02();
         }
 
-        string STR;
+        //string STR;
     }
 }

@@ -18,7 +18,7 @@ namespace Lab_Form
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new windo());
             //Application.Run(new Frm_M04());
-            Application.Run(new Frm_M12());
+            Application.Run(new Frm_M18());
         }
     }
 }
