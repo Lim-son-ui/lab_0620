@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace work4
 {
-    class Stati
-    {
-        //public int 
-    }
+    //public class Stat
+    //{
+    //    public string[] stu = new string[4];
+
+    //}
 }

@@ -33,7 +33,7 @@ namespace work3
         }
         Stati st = new Stati();
 
-        public void print()
+        void print()
         {
             if (st.beer_count > 0 ) {
                 st.print_dr += "啤酒Beer X" + st.beer_count + "共NT$" + st.beer_price + "元\r\n";
@@ -112,12 +112,24 @@ namespace work3
             //st.total_price *= 0.9;
             MessageBox.Show("總金額:NT$" + a.ToString());
         }
-
+        void Clear()
+        {
+             st.beer_price = 0;
+             st.beer_count = 0;
+             st.teequila_price = 0;
+             st.teequila_count = 0;
+             st.whisky_price = 0;
+             st.whisky_count = 0;
+             st.wine_price = 0;
+             st.wine_count = 0;
+    }
         private void button3_Click_1(object sender, EventArgs e)
         {       //清除內容
+            
             st.total_price = 0;
             textBox3.Text = "NT$" + st.total_price.ToString();
             textBox6.Text = "尚未點餐";
+            Clear();
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
